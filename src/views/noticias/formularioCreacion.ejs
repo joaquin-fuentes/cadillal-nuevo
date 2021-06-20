@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../../../css/main/styles.css">
+    <link rel="stylesheet" href="../../../css/noticias/noticiasForm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadillal</title>
+</head>
+<body>
+
+    
+    <%- include ("../partials/header.ejs") %>
+
+    
+    <section class="section-formulario-creacion-noticia">
+
+        <div class="formulario-completo">
+            <header class="header-formulario">Crear noticia</header>
+            <form class="formulario-creacion-noticia" action="/noticias" enctype="multipart/form-data" method="POST">
+                <label for="imagen">Imagen </label>
+                <input type="file" name="imagen" id="imagen" value="" required>
+                <label for="fecha">Fecha de publicacion</label>
+                <input type="date" name="fecha" id="fecha" value="" required>
+                <label for="titulo">Título de la noticia </label>
+                <input type="text" name="titulo" id="titulo" value="" required>
+                <textarea name="desarrollo" id="" cols="30" rows="10" placeholder="Desarrollo de la noticia" required></textarea>
+                <button type="submit">Crear</button>
+            </form>
+        </div>
+        
+
+    </section>
+
+    
+    <%- include ("../partials/footer.ejs") %>
+
+    <script src="../../../js/main/home.js"></script>
+</body>
+</html>

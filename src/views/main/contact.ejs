@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../../../css/main/styles.css">
+    <link rel="stylesheet" href="../../../css/main/contacto.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadillal</title>
+</head>
+<body>
+
+    
+    <%- include ("../partials/header.ejs") %>
+
+
+    <section class="section-contacto">
+       
+        
+        <div class="contacto-inferior animadoFijo" >
+            <div class="contacto">
+                <div class="contenedor-formulario">
+                    <h2 class="section-titulo animadoFijo" style="padding: 0 0 6% 0; color: white;">Contacto</h2>
+                    <form action="/contacto" method="POST">
+                        <div class="nombre-telefono">
+                            <div class="nombre">
+                               <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                            </div>
+                            <div class="telefono">
+                                <input type="number" name="cel" id="cel" placeholder="Teléfono" required>
+                            </div>
+                        </div>
+                        <div class="mail">
+                            <input type="email" name="mail" id="mail" placeholder="Direccion de correo electrónico" required>
+                        </div>
+                        <div class="mensaje">
+                            <textarea name="mensaje" id="mensaje" cols="25" rows="7" placeholder="Mensaje" required></textarea>
+                        </div>
+                        <div class="boton-enviar">
+                            <input type="submit" name="" id="">
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    
+    <%- include ("../partials/footer.ejs") %>
+
+    <script src="../../../js/main/home.js"></script>
+</body>
+</html>

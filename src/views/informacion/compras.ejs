@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../../../css/main/styles.css">
+    <link rel="stylesheet" href="../../../css/informacion/hospedaje.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadillal</title>
+</head>
+<body style="background-color:#143D59;">
+
+    
+    <%- include ("../partials/header.ejs") %>
+
+    <h2 class="section-titulo animadoFijo" style="color: #F4B41A;"> ¿Dónde realizar tus compras?</h2>
+   <nav class="nav-compras-div">
+       <ul class="nav-compras">
+           <li><a href="/informacion/compras/#almacen">Almacen</a></li>
+           <li><a href="/informacion/compras/#verduleria">Verduleria</a></li>
+           <li><a href="/informacion/compras/#carniceria">Carniceria</a></li>
+           <li><a href="/informacion/compras/#farmacia">Farmacia</a></li>
+       </ul>
+   </nav>
+
+    <h2 class="section-titulo animadoFijo" id="almacen" style="color: #F4B41A;"> Almacén </h2>
+
+    <section class="section-hospedajes">
+        
+
+        
+        <% informacion.forEach(informacion => { if(informacion.rubro == "almacen"){ %>
+            <article class="tarjeta-hospedaje animadoFijo">
+                <div class="columna-tarjeta-hospedaje-img">
+                    <img src="../../../img/informacion/<%= informacion.imagen %>" alt="img-hospedaje">
+                </div>
+                <div class="columna-tarjeta-hospedaje-info">
+                    <h3 class="titulo-hospedaje"><%= informacion.titulo %></h3>
+                    <p>Ubicación: <span><%= informacion.ubicacion %> </span> <span><a href=<%= informacion.maps %>> Ver ubicacion en google maps</a></span></p> 
+                    <p>Detalle: <span><%= informacion.detalles %></span></p>
+                    <p>Dias de atención: <span><%= informacion.diasDeAtencion %></span></p>
+                    <p>Horarios de atención: <span><%= informacion.horarioDeAtencion %></span></p>
+                    <p>Teléfono para reservas o consultas: <span> <%= informacion.telefono %> </span></p>
+                </div>
+            </article>
+            <% }}) %>
+    </section>
+
+    <h2 class="section-titulo animadoFijo" id="verduleria" style="color: #F4B41A;"> Verdulerias</h2>
+
+    <section class="section-hospedajes">
+        
+
+        <% informacion.forEach(informacion => { if(informacion.rubro == "verduleria"){ %>
+            <article class="tarjeta-hospedaje animadoFijo">
+                <div class="columna-tarjeta-hospedaje-img">
+                    <img src="../../../img/informacion/<%= informacion.imagen %>" alt="img-hospedaje">
+                </div>
+                <div class="columna-tarjeta-hospedaje-info">
+                    <h3 class="titulo-hospedaje"><%= informacion.titulo %></h3>
+                    <p>Ubicación: <span><%= informacion.ubicacion %> </span> <span><a href=<%= informacion.maps %>> Ver ubicacion en google maps</a></span></p>                    <p>Detalle: <span><%= informacion.detalles %></span></p>
+                    <p>Detalle: <span><%= informacion.detalles %></span></p>
+                    <p>Dias de atención: <span><%= informacion.diasDeAtencion %></span></p>
+                    <p>Horarios de atención: <span><%= informacion.horarioDeAtencion %></span></p>
+                    <p>Teléfono para reservas o consultas: <span> <%= informacion.telefono %> </span></p>
+                </div>
+                  </article>
+            <% }}) %>
+
+    </section>
+    <h2 class="section-titulo animadoFijo" id="carniceria" style="color: #F4B41A;"> Carnicerias </h2>
+
+    <section class="section-hospedajes">
+        
+
+        <% informacion.forEach(informacion => { if(informacion.rubro == "carniceria"){ %>
+            <article class="tarjeta-hospedaje animadoFijo">
+                <div class="columna-tarjeta-hospedaje-img">
+                    <img src="../../../img/informacion/<%= informacion.imagen %>" alt="img-hospedaje">
+                </div>
+                <div class="columna-tarjeta-hospedaje-info">
+                    <h3 class="titulo-hospedaje"><%= informacion.titulo %></h3>
+                    <p>Ubicación: <span><%= informacion.ubicacion %> </span> <span><a href=<%= informacion.maps %>> Ver ubicacion en google maps</a></span></p>                    <p>Detalle: <span><%= informacion.detalles %></span></p>
+                    <p>Detalle: <span><%= informacion.detalles %></span></p>
+                    <p>Dias de atención: <span><%= informacion.diasDeAtencion %></span></p>
+                    <p>Horarios de atención: <span><%= informacion.horarioDeAtencion %></span></p>
+                    <p>Teléfono para reservas o consultas: <span> <%= informacion.telefono %> </span></p>
+                </div>
+                </article>
+            <% }}) %>
+    </section>
+    <h2 class="section-titulo animadoFijo" id="farmacia" style="color: #F4B41A;"> Farmacia </h2>
+
+    <section class="section-hospedajes">
+        
+
+        <% informacion.forEach(informacion => { if(informacion.rubro == "farmacia"){ %>
+            <article class="tarjeta-hospedaje animadoFijo">
+                <div class="columna-tarjeta-hospedaje-img">
+                    <img src="../../../img/informacion/<%= informacion.imagen %>" alt="img-hospedaje">
+                </div>
+                <div class="columna-tarjeta-hospedaje-info">
+                    <h3 class="titulo-hospedaje"><%= informacion.titulo %></h3>
+                    <p>Ubicación: <span><%= informacion.ubicacion %> </span> <span><a href=<%= informacion.maps %>> Ver ubicacion en google maps</a></span></p>                    <p>Detalle: <span><%= informacion.detalles %></span></p>
+                    <p>Detalle: <span><%= informacion.detalles %></span></p>
+                    <p>Dias de atención: <span><%= informacion.diasDeAtencion %></span></p>
+                    <p>Horarios de atención: <span><%= informacion.horarioDeAtencion %></span></p>
+                    <p>Teléfono para reservas o consultas: <span> <%= informacion.telefono %> </span></p>
+                </div>
+                </article>
+            <% }}) %>
+    </section>
+
+
+
+
+
+
+    
+
+    
+    <%- include ("../partials/footer.ejs") %>
+
+    <script src="../../../js/main/home.js"></script>
+</body>
+</html>

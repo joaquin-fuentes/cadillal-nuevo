@@ -1,0 +1,247 @@
+[
+ 
+ {
+  "rubro": "almacen",
+  "titulo": "lo de alicia",
+  "ubicacion": "ruta 312 frente a cadicoop",
+  "diasDeAtencion": "lunes a lunes",
+  "horarioDeAtencion": "10 a 22hs",
+  "telefono": "3816097754",
+  "detalles": "venta de comestibles, bebidas en general y empanadas",
+  "imagen": "informacion-1623799486303.jpeg",
+  "id": 3
+ },
+ {
+  "rubro": "bar",
+  "titulo": "Puerto A",
+  "ubicacion": "A 50mts del anfiteatro, en la zona de puerto argentino.",
+  "diasDeAtencion": "de Lunes a Lunes",
+  "horarioDeAtencion": "de 9 a 23hs",
+  "telefono": "3816097754",
+  "detalles": "Veni a disfrutar de las mejores comidas y con el mejor paisaje del dique celestino gelsi",
+  "imagen": "informacion-1623800082245.jpg",
+  "id": 4
+ },
+ {
+  "rubro": "bar",
+  "titulo": "Bar La Isla",
+  "ubicacion": "al lado del dique, junto al desembarcadero, y frente a la policia lacustre",
+  "diasDeAtencion": "Todos los dias del año",
+  "horarioDeAtencion": "de 10 a 22hs",
+  "telefono": "3816097754",
+  "detalles": "Veni a disfrutar de los mejores platos tradicionales, y de hermosos paisajes.",
+  "imagen": "informacion-1623800173786.jpg",
+  "id": 5
+ },
+ {
+  "rubro": "almacen",
+  "titulo": "Minisuper Campechana",
+  "ubicacion": "Nos encontramos en PASEO LA SOLANA, 200mts antes de llegar a la rontonda del cadillal",
+  "diasDeAtencion": "de lunes a lunes",
+  "horarioDeAtencion": "de 9 a 23hs",
+  "telefono": "3816097754",
+  "detalles": "Encontraras articulos de limpieza, bebidas en general, comestibles, golosinas y tambien Carniceria",
+  "imagen": "informacion-1623800296986.jpg",
+  "id": 6
+ },
+ {
+    "rubro": "almacen",
+    "titulo": "Minisuper Campechana",
+    "ubicacion": "Nos encontramos en PASEO LA SOLANA, 200mts antes de llegar a la rontonda del cadillal",
+    "diasDeAtencion": "de lunes a lunes",
+    "horarioDeAtencion": "de 9 a 23hs",
+    "telefono": "3816097754",
+    "detalles": "Encontraras articulos de limpieza, bebidas en general, comestibles, golosinas y tambien Carniceria",
+    "imagen": "informacion-1623800296986.jpg",
+    "id": 6
+   },
+ {
+  "rubro": "turismo aventura",
+  "titulo": "SW Tucumán Aventuras",
+  "ubicacion": "Estamos en la zona de puerto argentino, al lado del anfiteatro, y tambien junto al bar \"el faro\"",
+  "diasDeAtencion": "de viernes a domingos",
+  "horarioDeAtencion": "de 12 a 19hs",
+  "telefono": "3816097754",
+  "detalles": "Alquiler de kayaks, paseos en lancha, paseos en barco, coaching grupal, caminatas, campamentos, y muchas actividades mas!",
+  "imagen": "informacion-1623800696004.jpg",
+  "id": 7
+ },
+ {
+  "rubro": "turismo aventura",
+  "titulo": "TKC - Tucuman Kayak Club",
+  "ubicacion": "Al lado del bar la Isla encontraras nuestra carpa roja de TKC",
+  "diasDeAtencion": "de martes a domingos ",
+  "horarioDeAtencion": "10 a 19hs",
+  "telefono": "3816097754",
+  "detalles": "Alquiler de kayaks, paseos guiados, caminatas, escuelita de kayaks para niños y adultos, guardería de kayaks, club de socios.",
+  "imagen": "informacion-1623800824272.jpg",
+  "id": 8
+ },
+ {
+  "rubro": "camping",
+  "titulo": "SEOC ",
+  "ubicacion": "300mts antes de la rotonda",
+  "diasDeAtencion": "lunes a lunes",
+  "horarioDeAtencion": "24hs",
+  "telefono": "3816097754",
+  "detalles": "Amplios espacios para acampar, asadores, pileta, cabañas.",
+  "imagen": "informacion-1623800933499.jpg",
+  "id": 9
+ },
+ {
+  "rubro": "camping",
+  "titulo": "SUTERH",
+  "ubicacion": "350mts antes de llegar a la rotonda del cadilal",
+  "diasDeAtencion": "lunes a lunes",
+  "horarioDeAtencion": "las 24hss",
+  "telefono": "3816097754",
+  "detalles": "Espacios para acampar, cancha de futbol, pileta, quinchos techados, salon de fiestas, cabañas y habitaciones.",
+  "imagen": "informacion-1623801010995.jpg",
+  "id": 10
+ },
+ {
+  "rubro": "heladeria",
+  "titulo": "GRIDO",
+  "ubicacion": "Nos encontramos en \"PASEO LA SOLANA\" - 200mts antes de llegar a la rotonda del cadillal",
+  "diasDeAtencion": "de lunes a lunes",
+  "horarioDeAtencion": "de 10 a 23hs",
+  "telefono": "3816097754",
+  "detalles": "",
+  "imagen": "informacion-1623801085087.jpg",
+  "id": 11
+ },
+ {
+  "rubro": "heladeria",
+  "titulo": "Timo",
+  "ubicacion": "al lado del anfiteatro, en la zona de puerto argentino",
+  "diasDeAtencion": "lunes a lunes",
+  "horarioDeAtencion": "de 10 a 20hs",
+  "telefono": "3816097754",
+  "detalles": "Veni a disfrutar de los mejores paisajes ",
+  "imagen": "informacion-1623801198024.jpg",
+  "id": 12
+ },
+ {
+  "rubro": "casa de comida",
+  "titulo": "Silvia Diaz",
+  "ubicacion": "el vallecito",
+  "diasDeAtencion": "miercoles a domingos",
+  "horarioDeAtencion": "de 20 a 24hs",
+  "telefono": "3816097754",
+  "detalles": "Delivery de sanguches de milanesa, pizzas, napolitanas, etc. su consulta no molesta",
+  "imagen": "informacion-1623801368192.jpg",
+  "id": 13
+ },
+ {
+    "rubro": "casa de comida",
+    "titulo": "Silvia Diaz",
+    "ubicacion": "el vallecito",
+    "diasDeAtencion": "miercoles a domingos",
+    "horarioDeAtencion": "de 20 a 24hs",
+    "telefono": "3816097754",
+    "detalles": "Delivery de sanguches de milanesa, pizzas, napolitanas, etc. su consulta no molesta",
+    "imagen": "informacion-1623801368192.jpg",
+    "id": 13
+   },
+ {
+  "rubro": "almacen",
+  "titulo": "asdad",
+  "ubicacion": "aasda",
+  "diasDeAtencion": "assdasd",
+  "horarioDeAtencion": "aasdasd",
+  "telefono": "33434",
+  "detalles": "asdasd",
+  "imagen": "informacion-1623880862113.jpg",
+  "id": 14
+ },
+ {
+  "rubro": "hospedaje",
+  "titulo": "Lo de Alicia",
+  "ubicacion": "Ruta 312 frente a cadicoop",
+  "maps": "https://goo.gl/maps/x7iGW3TYLawMLVQLA",
+  "diasDeAtencion": "-",
+  "horarioDeAtencion": "-",
+  "telefono": "3816097754",
+  "detalles": "Alquiler de cabaña para 6 personas, totalmente equipada con baño privado, pileta, estacionamiento, wifi, tv por cable.",
+  "imagen": "informacion-1623940111371.jpeg",
+  "id": 15
+ },
+ {
+    "rubro": "hospedaje",
+    "titulo": "Lo de Alicia",
+    "ubicacion": "Ruta 312 frente a cadicoop",
+    "maps": "https://goo.gl/maps/x7iGW3TYLawMLVQLA",
+    "diasDeAtencion": "-",
+    "horarioDeAtencion": "-",
+    "telefono": "3816097754",
+    "detalles": "Alquiler de cabaña para 6 personas, totalmente equipada con baño privado, pileta, estacionamiento, wifi, tv por cable.",
+    "imagen": "informacion-1623940111371.jpeg",
+    "id": 15
+   },
+   {
+    "rubro": "verduleria",
+    "titulo": "asdad",
+    "ubicacion": "aasda",
+    "diasDeAtencion": "assdasd",
+    "horarioDeAtencion": "aasdasd",
+    "telefono": "33434",
+    "detalles": "asdasd",
+    "imagen": "informacion-1623880862113.jpg",
+    "id": 14
+   },
+   {
+    "rubro": "verduleria",
+    "titulo": "asdad",
+    "ubicacion": "aasda",
+    "diasDeAtencion": "assdasd",
+    "horarioDeAtencion": "aasdasd",
+    "telefono": "33434",
+    "detalles": "asdasd",
+    "imagen": "informacion-1623880862113.jpg",
+    "id": 14
+   },
+   {
+    "rubro": "carniceria",
+    "titulo": "asdad",
+    "ubicacion": "aasda",
+    "diasDeAtencion": "assdasd",
+    "horarioDeAtencion": "aasdasd",
+    "telefono": "33434",
+    "detalles": "asdasd",
+    "imagen": "informacion-1623880862113.jpg",
+    "id": 14
+   },
+   {
+    "rubro": "carniceria",
+    "titulo": "asdad",
+    "ubicacion": "aasda",
+    "diasDeAtencion": "assdasd",
+    "horarioDeAtencion": "aasdasd",
+    "telefono": "33434",
+    "detalles": "asdasd",
+    "imagen": "informacion-1623880862113.jpg",
+    "id": 14
+   },
+   {
+    "rubro": "farmacia",
+    "titulo": "asdad",
+    "ubicacion": "aasda",
+    "diasDeAtencion": "assdasd",
+    "horarioDeAtencion": "aasdasd",
+    "telefono": "33434",
+    "detalles": "asdasd",
+    "imagen": "informacion-1623880862113.jpg",
+    "id": 14
+   },
+   {
+    "rubro": "farmacia",
+    "titulo": "asdad",
+    "ubicacion": "aasda",
+    "diasDeAtencion": "assdasd",
+    "horarioDeAtencion": "aasdasd",
+    "telefono": "33434",
+    "detalles": "asdasd",
+    "imagen": "informacion-1623880862113.jpg",
+    "id": 14
+   }
+]

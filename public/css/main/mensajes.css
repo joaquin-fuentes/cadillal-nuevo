@@ -1,0 +1,42 @@
+section{
+    padding-top: 4vh;
+    background: -webkit-linear-gradient(to right, #016e8a73, #17273586),url(https://png.pngtree.com/thumb_back/fw800/background/20210324/pngtree-3d-home-office-virtual-background-art-wood-carving-image_593358.jpg);
+    background: linear-gradient(to right, #0778948a, #111d2988), url(https://png.pngtree.com/thumb_back/fw800/background/20210324/pngtree-3d-home-office-virtual-background-art-wood-carving-image_593358.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+main{
+    margin: 5% 5% 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mensaje{
+    width: 88vw;
+    height: 30vh;
+    border: rgb(9, 9, 70) 4px solid;
+    background-color: rgb(188, 210, 211);
+    margin: 2%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    margin-bottom: 0.5%;
+    font-weight: 700;
+    margin-left: 1%;
+    margin-top: 0.2%;
+    width: 100%;
+    height: 15%;
+}
+span{
+    font-weight: 500;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    max-width: 70vw;
+    text-align: center;
+}

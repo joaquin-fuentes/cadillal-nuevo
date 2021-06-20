@@ -1,0 +1,142 @@
+.section-hospedajes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #143D59;
+}
+.nav-compras-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 4%;
+    background-color: #F4B41A;
+}
+.nav-compras{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    margin-bottom:1% ;
+}
+.nav-compras li{
+    margin-top: 2%;
+    font-weight: 700;
+    font-size: 17px;
+}
+.nav-compras a{
+    margin-top: 1%;
+    text-decoration: none;
+    color: #143D59;
+}
+.nav-compras a:hover{
+    text-decoration: underline;
+}
+.tarjeta-hospedaje{
+    width: 90vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+.columna-tarjeta-hospedaje-img{
+    width: 30%;
+    height: 100%;
+    border-radius: 10px ;
+    overflow: hidden;
+}
+.columna-tarjeta-hospedaje-img img{
+    width: 100%;
+    height: 100%;
+}
+.columna-tarjeta-hospedaje-info{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+}
+.titulo-hospedaje{
+    color: #F4B41A;
+    margin: 1%;
+}
+p{
+    margin: 0 1% 1% 1%;
+    font-weight: 700;
+    color: white;
+}
+span{
+    font-weight: 500;
+}
+span a{
+    color: rgb(160, 160, 160);
+}
+span a:hover{
+    color:#F4B41A ;
+}
+
+
+/* MEDIDAS PARA TABLET */
+@media (max-width: 768px){
+    
+.nav-compras{
+    width: 85%;
+}
+    .tarjeta-hospedaje{
+      
+        height: 38vh;
+    }
+    
+    span{
+        font-size: 13px;
+    }
+    p{
+        font-size: 13.5px;
+    }
+    
+}
+/* MEDIDAS PARA MOBILE */
+@media (max-width: 460px){
+   
+.nav-compras{
+    width: 100%;
+}
+.nav-compras li{
+    font-size: 13.5px;
+}
+.tarjeta-hospedaje{
+    width: 70vw;
+    height: auto;
+   flex-direction: column;
+}
+.columna-tarjeta-hospedaje-img{
+    border: gray 1px solid;
+    width: 100%;
+    height: 27vh;
+}
+.columna-tarjeta-hospedaje-info{
+    height:auto;
+    width: 100%;
+}
+.titulo-hospedaje{
+    color: rgb(2, 2, 63);
+    margin: 1%;
+    font-size: 15px;
+    text-align: center;
+}
+p{
+    margin: 0 1% 1% 1%;
+    font-weight: 700;
+}
+span{
+    font-weight: 500;
+}
+
+
+}

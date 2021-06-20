@@ -1,0 +1,115 @@
+.section-formulario-creacion-informacion{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../images/unnamed.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.formulario-completo{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(31, 31, 31, 0.95);
+    box-shadow: 3px 3px 3px black;
+    color: white;
+    font-weight: 700;
+    border-radius: 12px;
+    margin-top: 8vh;
+    overflow: hidden;
+}
+.header-formulario{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.formulario-creacion-informacion{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2%;
+}
+label{
+    width: 70%;
+
+}
+input{
+    width: 70%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+select{
+    width: 70%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+textarea{
+    width: 70%;
+    height: 10%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+button{
+    width: 70%;
+    height: 8%;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+button:hover{
+    background-color: rgb(196, 195, 195);
+    cursor: pointer;
+}
+
+/* MEDIDAS PARA TABLET */
+@media (max-width: 768px){
+   
+    .formulario-completo{
+        width: 70%;
+    }
+    .header-formulario{
+        height: 10%;
+        font-weight: 800;
+    }
+    .formulario-creacion-informacion{
+        height: 90%;
+        margin: 1.5%;
+    }
+    label{
+        width: 70%;
+        font-size: 14px;
+    
+    }
+        
+    }
+    /* MEDIDAS PARA MOBILE */
+    @media (max-width: 460px){
+       
+        .formulario-completo{
+            width: 85%;
+        }
+        .header-formulario{
+            height: 7%;
+        }
+        .formulario-creacion-informacion{
+            height: 93%;
+            margin: 1%;
+        }
+    }

@@ -1,0 +1,87 @@
+.page-comollegar{
+    
+    background-color: #143D59;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page-comollegar p{
+    text-align:center;
+    margin-top: 3%;
+    color: white;
+    font-weight: 750;
+}
+.page-comollegar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1.5%;
+}
+.page-comollegar ul li{
+    margin-bottom: 1%;
+    color: white;
+    font-weight: 750;
+}
+.page-comollegar ul li span{
+    font-weight: 500;
+}
+.contenedor-imagenes{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contenedor-imagenes img{
+    width: 250px;
+    height: 250px;
+    margin: 4%;
+}
+
+/* MEDIDAS PARA TABLET */
+@media (max-width: 768px){
+    .page-comollegar p{
+        text-align:center;
+        margin-top: 3%;
+    }
+    .page-comollegar ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 1.5% 5% 0 5% ;
+    }
+    .page-comollegar ul li{
+        margin-bottom: 1%;
+    }
+    .contenedor-imagenes{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .contenedor-imagenes img{
+        width: 180px;
+        height: 180px;
+        margin: 4%;
+    }
+}
+
+/* MEDIDAS PARA MOBILE */
+@media (max-width: 460px){
+   
+    .page-comollegar ul li{
+        margin-bottom: 2%;
+    }
+    .contenedor-imagenes img{
+        width: 180px;
+        height: 180px;
+        margin: 3%;
+    }
+}

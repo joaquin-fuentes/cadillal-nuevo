@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../../../css/main/styles.css">
+    <link rel="stylesheet" href="../../../css/noticias/noticias.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadillal</title>
+</head>
+<body style="background-color: #143D59;">
+
+    
+    <%- include ("../partials/header.ejs") %>
+
+    
+    <section class="section-noticias-home" style="flex-direction: column; height: 100%;">
+        <h2 class="section-titulo animadoFijo" style="color: #F4B41A; margin: 3%;">Noticias</h2>
+        <div class="contenedor-tarjetas-noticias-home" style="width: 100%;">
+
+            <% noticias.forEach(noticia => { %>
+          
+            <article class="tarjeta-noticia animado">
+                <div class="contenedor-img-tarjeta-noticias">
+                    <img class="img-noticia" src="../../../img/noticias/<%= noticia.imagen %>" alt="Imagen">
+                </div>
+                <div class="info-tarjeta-noticia">
+                    <h3 class="titulo-noticia"><%= noticia.titulo %></h3>
+                   <p class="desarrollo-noticia" style="height: auto;"><%= noticia.desarrollo %> </p>
+                   <p class="fecha-noticia" style="margin-top: 2%;"><%= noticia.fecha %></p>
+                </div>
+            </article>
+            <% }) %>
+           
+
+        </div>
+
+    </section>
+
+    
+    <%- include ("../partials/footer.ejs") %>
+
+    <script src="../../../js/main/home.js"></script>
+</body>
+</html>

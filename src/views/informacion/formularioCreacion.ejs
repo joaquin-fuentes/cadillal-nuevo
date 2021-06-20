@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../../../css/main/styles.css">
+    <link rel="stylesheet" href="../../../css/informacion/informacionForm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadillal</title>
+</head>
+<body>
+
+    
+    <%- include ("../partials/header.ejs") %>
+
+    
+    <section class="section-formulario-creacion-informacion">
+
+        <div class="formulario-completo">
+            <header class="header-formulario">Crear informacion</header>
+            <form class="formulario-creacion-informacion" action="/informacion" enctype="multipart/form-data" method="POST">
+                <label for="rubro">Rubro: </label>
+                <select name="rubro" id="rubro">
+                    <option disabled selected value="">Selecciona una opción</option>
+                    <option value="hospedaje">Hospedaje</option>
+                    <option value="bar">Bar</option>
+                    <option value="turismo aventura">Turismo Aventura</option>
+                    <option value="camping">Camping</option>
+                    <option value="heladeria">Heladería</option>
+                    <option value="almacen">Almacén</option>
+                    <option value="verduleria">Verdulería</option>
+                    <option value="carniceria">Carnicería</option>
+                    <option value="farmacia">Farmacia</option>
+                    <option value="casa de comida">Casa de comida</option>
+                </select>
+                <label for="titulo">Titulo: </label>
+                <input type="text" name="titulo" id="titulo" value="" placeholder="" required>
+                <label for="ubicacion">Ubicacion: </label>
+                <input type="text" name="ubicacion" id="ubicacion" value="" placeholder="" required>
+                <label for="maps">Enlace de google maps: </label>
+                <input type="text" name="maps" id="maps" value="" placeholder="" required>
+                <label for="diasDeAtencion">Dias de Atencion: </label>
+                <input type="text" name="diasDeAtencion" id="diasDeAtencion" value="" placeholder="" required>
+                <label for="horarioDeAtencion">Horarios de Atencion:</label>
+                <input type="text" name="horarioDeAtencion" id="horarioDeAtencion" value="" placeholder="" required>
+                <label for="telefono">Telefono: </label>
+                <input type="number" name="telefono" id="telefono" value="" placeholder="" required>
+                <label for="detalle">Detalles: </label>
+                <textarea name="detalles" id="detalles" cols="30" rows="10" placeholder="Detalles de la empresa o negocio. (actividades, promociones, etc)" required></textarea>
+                <label for="imagen">Imagen: </label>
+                <input type="file" name="imagen" id="imagen" value="" placeholder="" required>
+                <button type="submit">Crear</button>
+            </form>
+        </div>
+        
+
+    </section>
+
+    
+    <%- include ("../partials/footer.ejs") %>
+
+    <script src="../../../js/main/home.js"></script>
+</body>
+</html>
