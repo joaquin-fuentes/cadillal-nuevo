@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../../../css/main/styles.css">
-    <link rel="stylesheet" href="../../../css/noticias/noticias.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,8 +15,8 @@
     <%- include ("../partials/header.ejs") %>
 
     
-    <section class="section-noticias-home" style="flex-direction: column; height: 100%;">
-        <h2 class="section-titulo animadoFijo" style="color: #F4B41A; margin: 3%;">Noticias</h2>
+    <section class="section-noticias" style="flex-direction: column; height: 100%;">
+        <h2 class="section-titulo animadoFijo" style="color: #F4B41A; height: 20vh; display: flex; align-items: center; justify-content: center;" >Noticias</h2>
         <div class="contenedor-tarjetas-noticias-home" style="width: 100%;">
 
             <% noticias.forEach(noticia => { %>

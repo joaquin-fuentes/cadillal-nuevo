@@ -16,7 +16,7 @@
     <%- include ("../partials/header.ejs") %>
 
     <section class="section-hospedajes">
-        <h2 class="section-titulo animadoFijo" style="color: #F4B41A;"> Bares en el cadillal</h2>
+        <h2 class="section-titulo animadoFijo" style="color: #F4B41A; height: 25vh; display: flex; align-items: center; justify-content: center;"> Bares en el cadillal</h2>
 
         <% informacion.forEach(informacion => { if(informacion.rubro == "bar" ){ %>
         <article class="tarjeta-hospedaje animadoFijo">
@@ -24,7 +24,7 @@
                 <img src="../../../img/informacion/<%= informacion.imagen %>" alt="img-hospedaje">
             </div>
             <div class="columna-tarjeta-hospedaje-info">
-                <h3 class="titulo-hospedaje"><%= informacion.titulo %></h3>
+                <h3 class="titulo-hospedaje" style="color: #F4B41A;"><%= informacion.titulo %></h3>
                 <p>Ubicación: <span><%= informacion.ubicacion %> </span> <span><a href=<%= informacion.maps %>> Ver ubicacion en google maps</a></span></p>                    <p>Detalle: <span><%= informacion.detalles %></span></p>
                 <p>Detalle: <span><%= informacion.detalles %></span></p>
                 <p>Dias de atención: <span><%= informacion.diasDeAtencion %></span></p>
